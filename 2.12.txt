@@ -1,0 +1,19 @@
+Exercise 2.12: Which, if any, of  the following names a re invalid?
+
+(a) int double = 3.14;
+not valid, word double reserved
+
+(b) int _;
+valid
+
+(c) int catch-22;
+not valid, should have a _ instead of the -
+
+(d) int 1_or_2 = 1;
+invalid, use of 2 underscore
+
+(e) double Double = 3.14;
+should not be used to confuse people
+
+
+// corriger !

@@ -1,0 +1,12 @@
+2.14: Is the following program legal ? IF so, what values are printed ?
+
+    int i = 100, sum = 0;
+    for (int i = 0; i != 10; ++i)
+        sum += i;
+    std::cout << i << " " << sum << std::endl;
+
+   : sum 1000 i 100 
+   - pas les bonne reponse 
+   
+   :coriger Yes. It is legal.Printed:100, 45
+   because it add the i in the for sentence , so  1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45 car a i=10 il arrete ! 

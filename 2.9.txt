@@ -1,0 +1,31 @@
+exercise 2.9 
+
+explain the following definitions. for those that are illegal, explain what wrong
+and how to correct it.
+
+A: std::cin >> int input_value;       cant put a value on a line
+
+    error: expected '(' for function-style cast or type construction.
+
+    int input_value = 0;
+    std::cin >> input_value;
+
+
+B: int i = { 3.14 };                  should be double
+
+    error: type 'double' cannot be narrowed to 'int' in initializer list.
+
+    double i = { 3.14 };
+
+C: double salary = wage = 9999.99;    cant double declare like that
+
+     if declared 'wage' before, it's right. Otherwise, error would be happened: error: use of undeclared identifier 'wage'
+
+    double wage;
+    double salary = wage = 9999.99;
+
+D: int i = 3.14;                      should be double
+
+    Ok: but value will be truncated.
+
+    double i = 3.14;
