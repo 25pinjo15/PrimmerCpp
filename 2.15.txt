@@ -1,0 +1,13 @@
+Exercise 2.15 : Which of the following definitionsm if any , are invalid and why
+
+a: int ival = 1.01;
+will return 0 because integer
+
+b: int &rval1 = 1.01;
+invalid because must be bound to a object
+
+c: int &rval2 = ival;
+valid
+
+d: int &rval3;
+declared but not bound
